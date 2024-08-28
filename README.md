@@ -5,7 +5,7 @@ The JSON files can later be imported to **Apple Reminder** app using Apple Short
 
 You can get the Apple shortcut from here: https://www.icloud.com/shortcuts/f93bcd159e1a44fb8a93cf727c43edde
 
-Read more on it here: https://janpedia.de
+Read more on it here: https://janpedia.de/en/software-en/import-todos-in-apple-reminders-app/
 
 ## Requirements
 * Deno [install Deno](https://deno.com/)
@@ -52,7 +52,7 @@ Items which were in a todoist section or have a recurring date or were nested de
 
 ## Format
 this is the format of the resulting JSON:
-```ts
+```typescript
 {
   title: string;
   description?: string;
