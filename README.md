@@ -52,7 +52,7 @@ Items which were in a todoist section or have a recurring date or were nested de
 
 ## Format
 this is the format of the resulting JSON:
-```typescript
+```ts
 {
   title: string;
   description?: string;
